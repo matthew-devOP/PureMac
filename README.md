@@ -40,7 +40,7 @@ brew install --cask puremac
 
 Download the latest `.app` from [Releases](https://github.com/momenbasel/PureMac/releases), unzip, and drag to `/Applications`.
 
-> **Note:** Since the app is not yet notarized, macOS may show an "unidentified developer" warning on first launch. Right-click the app and select **Open** to bypass this, or run: `xattr -d com.apple.quarantine /Applications/PureMac.app`
+> The app is signed and notarized with Apple Developer ID - no security warnings on download.
 
 ### Mac App Store
 
